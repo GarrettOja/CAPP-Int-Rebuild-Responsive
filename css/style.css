@@ -1,0 +1,113 @@
+/*
+    Table of Contents
+
+  Bootstrap Overrides
+  Sitewide Bootstrap Changes
+  Typography
+  Navigation Bar
+  Homepage Info
+
+  Footer
+*/
+
+/*Bootstrap Overrides*/
+#bgImg {
+  padding: 15px;
+  background-image: url("../images/backg-capp.jpg");
+  background-attachment: fixed;
+  background-position: top;
+}
+.no-border-color {
+  border-color: none;
+}
+
+/* Sitewide Bootstrap Changes */
+
+.btn-default {
+  background-image: url("../images/woodBg.jpg");
+  color: #7E685A;
+  border-style: none;
+  font-size: 1.5em;
+  font-family: Tahoma, sans-serif;
+}
+.btn-default:hover {
+  color: rgb(218, 222, 229);
+}
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Typography */
+.yellow {
+  color: rgb(218,197,152);
+}
+
+.yellow:hover {
+  color: rgb(218,197,152);
+}
+
+/* Navigation Bar */
+#navBar {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url("../images/woodBg.jpg");
+  font-size: 24px;
+  border-radius: 4px;
+}
+@media (max-width: 767px) {
+  #navBar {
+    padding-top: 10px;
+    background-image: url("../images/hmbox-bk-sm.png");
+  }
+}
+.nav-links {
+  color: #7E685A;
+  font-family: Tahoma, sans-serif;
+}
+.nav-links:hover {
+  color: #7E685A;
+}
+
+/* Homepage Info */
+#homeIntro div.col-sm-4 {
+  margin-top: 30px;
+}
+.title {
+
+  margin-left: 10px;
+  font-family: 'Lobster', cursive;
+  color: rgb(218, 222, 229);
+}
+.title-box {
+  background-image: url("../images/woodBg.jpg");
+  padding: 10px;
+}
+.content {
+  background-image: url("../images/content-bg.png");
+  background-position: center top;
+  background-size: 100% 100%;
+  padding: 20px;
+}
+.home-info {
+  color: rgb(218,197,152);
+}
+
+/* Generated Galleries */
+
+.marginTop {
+  margin-top: 30px;
+}
+
+/* Previous Events */
+
+#prevGallery {
+
+}
+
+/* Footer */
+
+#footer {
+  margin-top: 30px;
+
+}
